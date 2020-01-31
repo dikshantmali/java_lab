@@ -11,4 +11,3 @@ As method constructor can be of 2 type : with and without argument.
 1. constructor has the same name as the class name and constructor has no return type.
 2. constructor can also be overloaded
 3. when we pass the object of the class as an argument to the constructor such is constructor is known as the copy constructor
-
