@@ -1,0 +1,14 @@
+encapsulation and polymorphism :
+the process of wrapping up of data and methods into a single unit is called as encapsulation.in java it is also known as information hidding since it involves hidding of many important details of an object from the user it can be accessed by the methos of an object and this insulation of data from direct access by the programme is called as data-hidding.
+
+polymorphism(poly means many and morps means forms) => it is the facility that helps object to react differentky to the same operation java supports run time polymorphism with the help of overridding method. we can say polymorphism is a process in which a class to and overridden method os resolved at runtime rather then at the compile time this process is also calld as late binding or dynamic binding.    
+
+
+constructor , finilizers and destructors :
+like c++ java provides a spacial member functo for initializing the data members of a class called constructor .
+it is executed automatically at the time of object creation.
+As method constructor can be of 2 type : with and without argument.
+1. constructor has the same name as the class name and constructor has no return type.
+2. constructor can also be overloaded
+3. when we pass the object of the class as an argument to the constructor such is constructor is known as the copy constructor
+
