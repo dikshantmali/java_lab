@@ -12,4 +12,47 @@ As method constructor can be of 2 type : with and without argument.
 2. constructor can also be overloaded
 3. when we pass the object of the class as an argument to the constructor such is constructor is known as the copy constructor
 
-hello lets see the change
+lab - 7 (interface)
+1> apply concept of interface in various programme and utilize it as multiple inheritance
+2> crating package and importing in our programme.
+
+interface  => java does not support multiple inheritance to enjoy the benefits of multiple inheritancejava provides interface.
+an interface forces the classes tp impliment certain methods with certain signature , once an interface in defined you can 
+impliment any number of classes from this interface.
+the syntex is :
+interface interface_name{
+        members;
+        }
+the difference between interface and classes methods in an interface in declared only not imlimented and you have to impliment
+that interface in  a class.
+the syntex is :
+class class_name impliments interface_name,interface_name1,interface_name2{
+}   
+
+packages in java :
+
+package is a collection of classes and interfaces of similar nature.
+1> they are used to avoid class name collision 
+2> they enable class reusability
+3> software distribution is also easier now 
+4> they protect classes from the access by the external classes 
+
+their are 2 type if package
+1> built in package
+2> user defined package
+
+1>built in package
+classes with related functionality's are bundled togethere in same package,where they share code data or methods.
+eg :
+java.lang 
+java.util 
+
+
+2> user defined package :
+it is possible in java to create our own package in order to organize related classes 
+such packages are known as user defined packages.
+syntex is :
+package name_of_package;
+
+que.1 create a package with name my pack in this package create 2 class first and second and in this class 2 methods
+show1() and show2() and import the package in ain class and use the method reside in this class.
