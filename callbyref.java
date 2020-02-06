@@ -17,5 +17,6 @@ class callbyref{
 	obj.y=60;
 	System.out.println("the value before swaped is = "+obj.x+obj.y);
 	obj.swap(obj);	
+	
 	}
 }
