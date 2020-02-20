@@ -56,3 +56,13 @@ package name_of_package;
 
 que.1 create a package with name my pack in this package create 2 class first and second and in this class 2 methods
 show1() and show2() and import the package in ain class and use the method reside in this class.
+
+Exception handling :
+Exception is an abnormal condition that arises in a code sequence at run time and disrupts the normal
+flow of programme.
+
+object --- throwable 1>error  1a>AWT error 2a>virtual m/c error
+                     2>Exception 2a>ioexception 2b>run time Exception
+                                 2aa>I/O Exception 2ab>filenot found Exception
+                                 2ba>arithmatic Exception 2bb>null pointer Exception
+                                                          2bc>array index outof bound Exception
